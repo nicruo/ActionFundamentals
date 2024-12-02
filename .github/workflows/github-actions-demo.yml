@@ -18,6 +18,6 @@ jobs:
         echo "🎉 The job was triggered by event: ${{ github.event_name }}"
         echo "🔎 The name of your branch is ${{ github.ref }}"
 
-    - uses: actions/checkout@4.2.2
+    - uses: actions/checkout@v4.2.2
 
     - run: tree
