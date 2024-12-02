@@ -10,14 +10,14 @@ on:
     - cron: "15 6 * * 0"
   workflow_dispatch:
 
-  jobs:
-    Build:
-      runs-on: ubuntu-latest
-      steps:
-      - run: |
-          echo "🎉 The job was triggered by event: ${{ github.event_name }}"
-          echo "🔎 The name of your branch is ${{ github.ref }}"
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "🎉 The job was triggered by event: ${{ github.event_name }}"
+        echo "🔎 The name of your branch is ${{ github.ref }}"
 
-      - uses: actions/checkout@4.2.2
+    - uses: actions/checkout@4.2.2
 
-      - run: tree
+    - run: tree
