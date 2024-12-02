@@ -1,4 +1,4 @@
-# GitHub Actions Fundamentals by Nicruo
+# GitHub Actions Fundamentals by Nicruo v1.0
 
 Repo for the `GitHub Actions Fundamentals` training.
 
